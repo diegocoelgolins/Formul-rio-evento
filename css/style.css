@@ -200,12 +200,17 @@ footer {
   background: #04D361;
   border-radius: 8px;
   border: none;
+  cursor: pointer;
   font-size: 16px;
   line-height: 26px;
   color: #FFFFFF;
   transition: 200ms;
 }
 
-.button:hover {
+footer .button:hover {
   background: #05af51;
+}
+
+input:invalid {
+  border: 1px solid #ff1010;
 }
